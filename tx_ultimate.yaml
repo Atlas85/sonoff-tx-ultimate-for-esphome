@@ -441,7 +441,7 @@ speaker:
     dac_type: external
     i2s_dout_pin: ${audio_sdata_pin}
     i2s_audio_id: audio_i2s
-    i2s_mode: mono
+    i2s_mode: primary
 
 media_player:
   - platform: speaker
