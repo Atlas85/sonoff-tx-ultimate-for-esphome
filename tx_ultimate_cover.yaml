@@ -530,7 +530,7 @@ speaker:
     dac_type: external
     i2s_dout_pin: ${audio_sdata_pin}
     i2s_audio_id: audio_i2s
-    mode: mono
+    mode: is2_mono
 
 media_player:
   - platform: speaker
