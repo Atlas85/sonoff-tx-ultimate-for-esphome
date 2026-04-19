@@ -447,7 +447,8 @@ media_player:
   - platform: speaker
     id: media_out
     name: ${friendly_name} Player
-    speaker: tx_speaker
+    source: tx_speaker
+    announcement_pipeline:
 
 i2s_audio:
   id: audio_i2s
